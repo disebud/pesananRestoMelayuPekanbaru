@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".paket.PaketE">
+
+    <TextView
+        android:id="@+id/title_paketE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="PAKET E"
+        android:textColor="@color/black"
+        android:background="#FFC9C9"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/sup_tunjang"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/menuE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="SUP TUNJANG"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="HARGA"/>
+
+    <EditText
+        android:id="@+id/et_harga_paketE"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:paddingStart="10dp"
+        android:focusable="false"
+        android:background="#FFC9C9"
+        android:cursorVisible="false"
+        android:text="50000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="JUMLAH"/>
+
+    <EditText
+        android:id="@+id/et_jumlah_paketE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:hint="0"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="DISCOUNT"/>
+
+    <EditText
+        android:id="@+id/et_disc_paketE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:hint="0"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF8080"
+        android:onClick="pesanMenuE"
+        android:text="PESAN SEKARANG"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="#FF5555"
+        android:layout_height="wrap_content"
+        android:onClick="menuUtamaE"
+        android:text="MENU UTAMA"/>
+
+</LinearLayout>

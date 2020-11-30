@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".HitungPesanan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PESANAN RESTO"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="#FFC9C9"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/kuliner_pekanbaru"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="MENU PAKET "/>
+
+    <EditText
+        android:id="@+id/et_menu_paket_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:focusable="false"
+        android:textColor="#FF5555"
+        android:textStyle="bold"
+        android:background="#FFC9C9"
+        android:cursorVisible="false"
+        android:paddingStart="10dp"
+        android:text="xxx"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="HARGA"/>
+
+    <EditText
+        android:id="@+id/et_harga_menu_paket_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:paddingStart="10dp"
+        android:focusable="false"
+        android:background="#FFC9C9"
+        android:cursorVisible="false"
+        android:text="40000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="JUMLAH"/>
+
+
+    <EditText
+        android:id="@+id/et_jumlah_menu_paket_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingStart="10dp"
+        android:focusable="false"
+        android:background="#FFC9C9"
+        android:cursorVisible="false"
+        android:text="0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="JUMLAH HARGA PESANAN"/>
+
+
+    <EditText
+        android:id="@+id/et_jumlah_harga_menu_paket_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingStart="10dp"
+        android:focusable="false"
+        android:background="#FFC9C9"
+        android:cursorVisible="false"
+        android:text="0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="JUMLAH DISCOUNT"/>
+
+
+    <EditText
+        android:id="@+id/et_jumlah_disc_menu_paket_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingStart="10dp"
+        android:focusable="false"
+        android:background="#FFC9C9"
+        android:cursorVisible="false"
+        android:text="0"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TOTAL BAYAR"/>
+
+
+    <EditText
+        android:id="@+id/et_total_bayar_menu_paket_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingStart="10dp"
+        android:focusable="false"
+        android:background="#FFC9C9"
+        android:cursorVisible="false"
+        android:text="0"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF5555"
+        android:onClick="MenuUtama"
+        android:text="MENU UTAMA"/>
+
+    </LinearLayout>
+</ScrollView>

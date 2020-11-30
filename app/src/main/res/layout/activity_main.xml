@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="DAFTAR MENU"
+            android:background="#FFC9C9"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:src="@drawable/kuliner_pekanbaru"/>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow >
+                <Button
+                    android:id="@+id/paketA"
+                    android:layout_height="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="PAKET A"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FF5555"
+                    android:onClick="kePaketA"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    />
+
+                <Button
+                    android:id="@+id/paketB"
+                    android:layout_height="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="PAKET B"
+                    android:textStyle="bold"
+                    android:onClick="kePaketB"
+                    android:backgroundTint="#FF8080"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    />
+            </TableRow>
+
+            <TableRow >
+                <Button
+                    android:id="@+id/paketC"
+                    android:layout_height="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="PAKET C"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FF9F98"
+                    android:onClick="kePaketC"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    />
+
+                <Button
+                    android:id="@+id/paketD"
+                    android:layout_height="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="PAKET D"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FF6363"
+                    android:onClick="kePaketD"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    />
+            </TableRow>
+
+            <TableRow >
+                <Button
+                    android:id="@+id/paketE"
+                    android:layout_height="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="PAKET E"
+                    android:textStyle="bold"
+                    android:onClick="kePaketE"
+                    android:backgroundTint="#FF6363"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    />
+
+                <Button
+                    android:id="@+id/paketF"
+                    android:layout_height="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="PAKET F"
+                    android:textStyle="bold"
+                    android:onClick="kePaketF"
+                    android:backgroundTint="#FF9595"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
